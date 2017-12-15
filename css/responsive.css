@@ -1,0 +1,56 @@
+@media all and (max-width: 768px){
+	.header-area{
+		height: 1200px;
+	}
+    .header-area .menu-btn{
+        display: block;
+        float: none;
+    }
+    .menu-area{
+        display: none;
+    }
+	.menu-area ul{
+        display: block;
+    }
+    .header-area .search-area input{
+	    font-size: 12px;
+    }	
+    .icon{
+	    padding-left: 60px;
+	    padding-bottom: 20px;
+    }
+    .about-area{
+    	height: 1900px;
+    }
+    .service-area{
+    	height: 4500px;
+    }
+    .service-area-bottom .service-img-area{
+        width: 100%;
+    }
+    .service-box{
+        width: 100%;
+    }
+    .partner-area{
+        height: 2550px;
+    }
+    .review-area{
+        height: 800px;
+    }
+    .review-area .owl-dots{
+        top: 95%;
+        left: 43%;
+    }
+    .partner-area-bottom .form-area textarea{
+        width: 100%;
+    }
+    .contact-area{
+        height: 1400px;
+    }
+    .contact-right textarea{
+        width: 100%;
+    }
+    .up-btn i{
+        font-size: 30px;
+    }
+}

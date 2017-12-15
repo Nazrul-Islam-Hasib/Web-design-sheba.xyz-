@@ -1,0 +1,485 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    PRODUCT NAME: SHEBA.XYZ
+    AUTHOR: MD Nazrul Islam
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    CSS INDEX
+
+    01 FONTS
+    02 TUPOGRAPHY
+    03 HEADER AREA
+    04 ABOUT AREA
+    05 SERVICE AREA
+    06 PARTNER AREA
+    07 REVIEW AREA
+    08 CONTACT AREA
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    01 FONTS
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+@font-face{
+	src: url(fonts/LobsterTwo-BoldItalic.ttf);
+	font-family: 'Lobster';
+}
+@font-face{
+	src: url(fonts/AveriaLibre-Bold.ttf);
+	font-family: 'AveriaLibreBold';
+}
+@font-face{
+	src: url(fonts/Chicle-Regular.ttf);
+	font-family: 'ChicleRegular';
+}
+@font-face{
+	src: url(fonts/Paprika-Regular.ttf);
+	font-family: 'PaprikaRegular';
+}
+@font-face{
+	src: url(fonts/TradeWinds-Regular.ttf);
+	font-family: 'TradeWindsRegular';
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    02 TUPOGRAPHY
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-family: 'PaprikaRegular';
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    03 HEADER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.header-area{
+	width: 100%;
+	height: 600px;
+	background: url(images/cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header-area .logo-area img{
+    width: 150px;
+    height: 70px;
+    padding-top: 20px;
+	cursor: pointer;
+}
+.menu-area{
+	padding-top: 15px;
+}
+.menu-area ul{
+    display: flex;
+}
+.menu-area ul li{
+    list-style: none;
+}
+.menu-area ul li a{
+    padding: 20px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'AveriaLibreBold';
+    color: #fff;
+    font-size: 16px;
+}
+.menu-area ul li a:hover{
+	color: #2980b9;
+}
+.menu-btn{
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: none;
+}
+.menu-btn i{
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+}
+.header-text{
+	text-align: center;
+	color: #fff;
+}
+.header-text h2{
+	font-weight: 700;
+	font-size: 60px;
+	padding: 50px 0;
+	font-family: 'Lobster';
+}
+.header-area .search-area{
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.header-area .search-area input{
+	height: 50px;
+	background-color: #ecf0f1;
+	color: #34495e;
+	font-size: 20px;
+}
+.header-area .button-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-area button{
+	padding: 10px 20px;
+	background-color: #2980b9;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    04 ABOUT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.about-area{
+	width: 100%;
+	height: 750px;
+	background-color: #fff;
+	color: #34495e;
+}
+.about-area-top{
+   text-align: center;
+   padding-top: 50px;
+}
+.about-area-top img{
+	width: 25px;
+	height: 25px;
+}
+.about-area-top p{
+	padding: 10px 0;
+	font-size: 20px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #95a5a6;
+}
+.about-area-top h2{
+	font-size: 40px;
+	font-family: 'ChicleRegular';
+}
+.about-area-bottom{
+   padding: 50px;
+   text-align: center;
+   color: #656565;
+   position: relative;
+}
+.icon{
+	padding-left: 120px
+}
+.icon .member-icon+.member-icon{
+	padding-left: 5px;
+}
+.member-icon{
+	width: 30px;
+	height: 30px;
+	border: 2px solid #34495e;
+	border-radius: 70px;
+	color: #34495e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.member-icon i{
+	cursor: pointer;
+}
+.member-icon:hover{
+	background-color: #3498db;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    05 SERVICE AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.service-area{
+	width: 100%;
+	height: 1500px;
+	background-color: #bdc3c7;
+	color: #34495e;
+}
+.service-area-top{
+   text-align: center;
+   padding-top: 50px;
+}
+.service-area-top h2{
+	font-family: 'ChicleRegular';
+	font-size: 40px;
+}
+.service-area-top img{
+	width: 25px;
+	height: 25px;
+}
+.service-area-bottom{
+	padding: 50px 0;
+}
+.service-area-bottom h4{
+	color: #2c3e50;
+	text-align: center;
+	padding: 10px 0;
+	z-index: 999;
+	overflow: hidden;
+	font-family: 'AveriaLibreBold';
+}
+.service-area-bottom P{
+	padding: 5px 0;
+	z-index: 999;
+	overflow: hidden;
+}
+.service-area-bottom .service-img-area{
+	width: 350px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.service-area-bottom .service-img-area img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.overlay{
+    width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 100%;
+	left :0;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.service-img-area:hover .overlay{
+    top: 0;
+}
+.overlay .overlay-content{
+	color: #fff;
+}
+.overlay .overlay-content i{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: #f1c40f;
+    cursor: pointer;
+}
+
+.counter-value{
+	font-size: 100px;
+	font-weight: 700;
+	padding: 10px 50px;
+	color: #f1c40f;
+}
+.service-box{
+	width: 100px;
+	height: 320px;
+	text-align: center;
+	background-color: #34495e;
+	border: 1px solid #f1c40f;
+	box-shadow: 5px 10px 20px #888888;
+}
+.service-box h2{
+	font-family: 'TradeWindsRegular';
+	color: #ecf0f1
+}
+.service-box i{
+	font-size: 60px;
+	color: #27ae60;
+	padding-top: 3px;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    06 PARTNER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.partner-area{
+	width: 100%;
+	height: 1290px;
+	background-color: #F7F8FC;
+}
+.partner-area-top{
+   text-align: center;
+   padding: 50px 0;
+}
+.partner-area-top h2{
+	font-family: 'ChicleRegular';
+	font-size: 40px;
+	color: #34495E;
+}
+.partner-area-top img{
+	width: 25px;
+	height: 25px;
+}
+.partner-img-area{
+	width: 200px;
+	height: 200px;
+	padding: 20px 0;
+}
+.partner-img-area img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.partner-area-bottom{
+   padding: 50px 0;
+   background-color: #252E30;
+   color: #fff;
+}
+.partner-area-bottom h2{
+	font-family: 'ChicleRegular';
+	font-size: 40px;
+    text-align: center;
+}
+.partner-area-bottom .form-area{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    07 REVIEW AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.review-area{
+    width: 100%;
+    height: 500px;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #F7F8FC;
+}
+.review-area-top{
+   text-align: center;
+   padding: 50px 0;
+}
+.review-area-top h2{
+	font-family: 'ChicleRegular';
+	font-size: 40px;
+	color: #34495E;
+}
+.review-area-top img{
+	width: 25px;
+	height: 25px;
+}
+.review-area .owl-carousel{
+    position: relative;
+}
+.review-area .owl-dots{
+    position: absolute;
+    top: 90%;
+    left: 47%;
+}
+.review-area .owl-dot{
+    background-color: #F7F8FC;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f1c40f;
+    border-radius: 50%;
+    margin: 30px 2px;
+    display: inline-block;
+}
+.review-area .owl-dots .active{
+    background-color: #f1c40f;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    08 CONTACT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.contact-area{
+	height: 700px;
+	background-color: #252E30;
+	color: white;
+}
+.contact-area-top{
+   text-align: center;
+   padding: 50px 0;
+}
+.contact-area-top h2{
+	font-family: 'ChicleRegular';
+	font-size: 40px;
+	color: #fff;
+}
+.contact-area-top img{
+	width: 25px;
+	height: 25px;
+}
+.contact-left h2 span{
+	font-family: 'ChicleRegular';
+}
+.contact-left p{
+	font-family: 'AveriaLibreBold';
+}
+.contact-left i{
+	cursor: pointer;
+}
+.contact-right{
+	padding-top: 30px;
+}
+.contact-right button{
+	padding: 10px 20px;
+	margin-top: 10px;
+	color: #fff;
+	background-color: #2980b9;
+	border: none;
+	cursor: pointer;
+}
+.last-line{
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	border-top: 1px solid #87A0D2;
+}
+.last-line p{
+	padding-top: 30px;
+}
+
+
+
+
+
+.up-btn{
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.up-btn i{
+	font-size: 40px;
+	cursor: pointer;
+	color: #c0392b;
+}

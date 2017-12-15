@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SHEBA || XYZ</title>
+
+	<!--CSS file-->
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico.png">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!--JS file-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script type="text/javascript" src="custom.js"></script>
+	
+</head>
+<body>
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    03 HEADER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+<div class="header-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 logo-area">
+        <img src="images/logo.png">
+      </div>
+      <div class="col-md-9 menu-area">
+        <ul>
+          <li><a href="#" class="menu-hover active" id="home">home</a></li>
+          <li><a href="#" class="menu-hover" id="about">about</a></li>
+          <li><a href="#" class="menu-hover" id="services">services</a></li>
+          <li><a href="#" class="menu-hover" id="partners">partners</a></li>
+          <li><a href="#" class="menu-hover" id="testimonials">reviews</a></li>
+          <li><a href="#" class="menu-hover" id="contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="header-text">
+      <h2>The Place For All Your Service</h2>
+    </div>
+    <div class="input-group search-area">
+      <input class="form-control" type="text" id="search-bar" placeholder="What are you looking for...">
+      <span class="input-group-addon"><i class="fa fa-search"></i></span>
+    </div>
+    <div class="button-area">
+      <button>Book Your Service Now</button>
+    </div>
+  </div>
+</div>
+
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    04 ABOUT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+<div class="about-area">
+    <div class="container">
+      <div class="about-area-top">
+        <h2 data-wow-delay=".25s" class="wow fadeInDown wHighlight">ABOUT US</h2>
+        <img src="images/service.png">
+        <p>
+          Sheba.xyz is the household service marketplace that connects the verified service providers with the customers on demand basis. Be it getting a plumbing job done, fixing ACs or even providing on demand driver for a few hours, we are a sure shot destination for your service needs. 
+        </p>
+        <h2>Our Amazing Team</h2>
+      </div>
+      <div class="about-area-bottom">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="member-img">
+              <img src="images/member1.png">
+            </div>
+            <h3>Kimberly Thompson</h3>
+            <h4>CEO</h4>
+            <div class="row icon">
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-twitter"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-facebook"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="member-img">
+              <img src="images/member2.jpg">
+            </div>
+            <h3>Rico Oliveira</h3>
+            <h4>CTO</h4>
+            <div class="row icon">
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-twitter"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-facebook"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-google-plus"></i>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="member-img">
+              <img src="images/member3.png">
+            </div>
+            <h3>Sarah Elijabeth</h3>
+            <h4>Marketer</h4>
+            <div class="row icon">
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-twitter"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-facebook"></i>
+                </div>
+                <div class="col-xs-4 member-icon">
+                  <i class="fa fa-pinterest-p"></i>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+   </div>
+
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    05 SERVICE AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+<div class="service-area">
+  <div class="container">
+    <div class="service-area-top">
+      <h2 data-wow-delay=".25s" class="wow fadeInDown wHighlight">SERVICES</h2>
+      <img src="images/service.png">
+    </div>
+
+    <div class="service-area-bottom">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Transport</h4>
+          <div class="service-img-area">
+            <img src="images/transport.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+        <div class="col-md-4">
+          <h4>Household Activities</h4>
+          <div class="service-img-area">
+            <img src="images/household.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+        <div class="col-md-4">
+          <h4>It Help</h4>
+          <div class="service-img-area">
+            <img src="images/it.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Business Consult</h4>
+          <div class="service-img-area">
+            <img src="images/business.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+        <div class="col-md-4">
+          <h4>House Shifting</h4>
+          <div class="service-img-area">
+            <img src="images/shifting.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+        <div class="col-md-4">
+          <h4>Health Services</h4>
+          <div class="service-img-area">
+            <img src="images/health.jpg" class="img-fluid">
+            <div class="overlay">
+              <div class="overlay-content">
+                <h5>View Details</h5>
+                <i class="fa fa-info-circle"></i>
+                <h5>Add to Cart</h5>
+                <i class="fa fa-shopping-cart"></i>
+                <h5>Chose Company</h5>
+                <i class="fa fa-building-o"></i>
+              </div>
+            </div>
+          </div>
+          <P>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</P>
+        </div>
+      </div>      
+    </div>
+    <div class="row">
+      <div class="col-md-3 service-box">
+        <div id="counter">
+          <i class="fa fa-calendar"></i>
+          <div class="counter-value" data-count="4">0</div>
+          <h2>Years of Experience</h2>
+        </div>
+      </div>
+      <div class="col-md-3 service-box">
+        <div id="counter">
+          <i class="fa fa-money"></i>
+          <div class="counter-value" data-count="352">0</div>
+          <h2>Products Sold</h2>
+        </div>
+      </div>
+      <div class="col-md-3 service-box">
+         <div id="counter">
+            <i class="fa fa-handshake-o"></i>
+            <div class="counter-value" data-count="87">0</div>
+            <h2>Companies</h2>
+         </div>
+      </div>
+      <div class="col-md-3 service-box">
+         <div id="counter">
+            <i class="fa fa-users"></i>
+            <div class="counter-value" data-count="417">0</div>
+            <h2>Happy Customers</h2>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    06 PARTNER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+<div class="partner-area">
+  <div class="container">
+    <div class="partner-area-top">
+      <h2 data-wow-delay=".25s" class="wow fadeInDown wHighlight">Our Trusted Partners</h2>
+      <img src="images/service.png">
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/AarongLogo.png" class="img-fluid wow slideInLeft">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/nikonlogo.jpg" class="img-fluid wow slideInLeft">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/aci.png" class="img-fluid wow slideInRight">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/Foodpandalogo.png" class="img-fluid wow slideInRight">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/banglalink.jpg" class="img-fluid wow slideInLeft">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/hungrynakilogo.jpg" class="img-fluid wow slideInLeft">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/uber.jpg" class="img-fluid wow slideInRight">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="partner-img-area">
+          <img src="images/momKids.png" class="img-fluid wow slideInRight">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="partner-area-bottom">
+    <div class="container">
+      <h2>Become Our Partner</h2>
+      <div class="col-md-12 form-area">
+        <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" placeholder="Address">
+          <label for="des">Description</label>
+        </div>
+        <div class="form-group">
+          <textarea rows="5" cols="124" placeholder="Describe your Job type..."></textarea>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Check me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    </div>  
+  </div>
+</div>
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    07 REVIEW AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+<div class="review-area">
+    <div class="container">
+      <div class="review-area-top">
+        <h2 data-wow-delay=".25s" class="wow fadeInDown wHighlight">Customer Reviews</h2>
+        <img src="images/service.png">  
+      </div>
+      <div class="owl-carousel owl-theme">
+       <div class="item">
+         <p>"Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est."</p>
+         <h2>John stone</h2>
+      </div>
+
+      <div class="item">
+        <p>"Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est."</p>
+        <h2>Mark Taylor</h2>
+      </div>
+
+      <div class="item">
+        <p>"Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est.Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.Purto brute disputando cu est."</p>
+        <h2>Laith-Al-Saadi</h2>
+      </div>
+  </div>
+    </div>
+</div>
+  
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    08 CONTACT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+-->
+    <div class="contact-area">
+      <div class="container">
+        <div class="contact-area-top">
+        <h2 data-wow-delay=".25s" class="wow fadeInDown wHighlight">Contact Us</h2>
+        <img src="images/service.png">  
+      </div>
+        <div class="row">
+        <div class="col-md-6 contact-left">
+          <h2>Say <span>Hello</span></h2>
+          <p>Don't be shy, drop us an email and say hello! We ara a really nice bunch of people :)</p>
+          <div class="row">
+            <div class="col-md-1">
+              <i class="fa fa-tablet"></i>
+            </div>
+            <div class="col-md-5">
+              <p>(416) 555-0000</p>
+            </div>
+            <div class="col-md-1">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="col-md-5">
+              <p>hello@Sheba.xyz</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-1">
+              <i class="fa fa-twitter"></i>
+            </div>
+            <div class="col-md-5">
+              <p>@Sheba</p>
+            </div>
+            <div class="col-md-1">
+              <i class="fa fa-facebook"></i>
+            </div>
+            <div class="col-md-5">
+              <p>facebook.com/Sheba</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-1">
+              <i class="fa fa-google-plus"></i>
+            </div>
+            <div class="col-md-5">
+              <p>plus.com/Sheba</p>
+            </div>
+            <div class="col-md-1">
+              <i class="fa fa-linkedin"></i>
+            </div>
+            <div class="col-md-5">
+              <p>linkedin.com/Sheba</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 contact-right">
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <textarea rows="5" cols="75" placeholder="Type your query here..."></textarea>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+            Check me out
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          
+        </div>
+        </div>
+
+        <div class="last-line">
+              <p>2017 Sheba.XYZ by Md. Nazrul Islam</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="up-btn">
+       <i class="fa fa-arrow-circle-up btn-up"></i>
+    </div>
+    
+
+ 
+
+</body>
+</html>
